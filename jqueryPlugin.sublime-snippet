@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+(function (factory) {
+    if (typeof define === 'function' && define.amd) {
+        // AMD. Register as an anonymous module.
+        define(['jquery'${2/(,\s?)?(\w+)/$1'$2'/g}], factory);
+    } else {
+        // Browser globals
+        factory(jQuery$2);
+    }
+}(function (\$$2) {
+    \$.fn.${1:jqueryPlugin} = function () {
+        $3
+    };
+}));
+]]></content>
+	<tabTrigger>umd-jq</tabTrigger>
+	<scope>source.js</scope>
+	<description>UMD—jQuery plugin</description>
+</snippet>
