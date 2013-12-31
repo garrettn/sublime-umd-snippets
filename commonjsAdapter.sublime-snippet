@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+// Help Node out by setting up define.
+if (typeof exports === 'object' && typeof define !== 'function') {
+	define = function (factory) {
+		factory(require, exports, module);
+	};
+}
+
+define(function (require, exports, module) {
+	${2/.+/var /}${2:b}${2/(.+)/ = require\('$1'\);/}
+
+	// Only attach properties to the exports object to define
+	// the module's properties.
+	exports.${1:action} = function ($3) {
+		$4
+	};
+});
+]]></content>
+	<tabTrigger>umd-cjsa</tabTrigger>
+	<scope>source.js</scope>
+	<description>UMD—CommonJS adapter</description>
+</snippet>
