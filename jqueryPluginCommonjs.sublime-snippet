@@ -12,8 +12,8 @@
 		factory(jQuery$2);
 	}
 }(function (\$$2) {
-	\$.fn.${1:jqueryPlugin} = function () {
-		$3
+	\$.fn.${1:jqueryPlugin} = function ($3) {
+		$4
 	};
 }));
 ]]></content>

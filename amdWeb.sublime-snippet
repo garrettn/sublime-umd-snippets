@@ -10,8 +10,8 @@
 	}
 }(this, function (${2:b}) {
 
-	function ${1:amdWeb} () {
-		$3
+	function ${1:amdWeb} ($3) {
+		$4
 	}
 
 	return ${1:amdWeb};

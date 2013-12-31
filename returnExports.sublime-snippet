@@ -15,8 +15,8 @@
 	}
 }(this, function (${2:b}) {
 
-	function ${1:returnExports} () {
-		$3
+	function ${1:returnExports} ($3) {
+		$4
 	}
 
 	return ${1:returnExports};
