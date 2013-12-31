@@ -1,20 +1,20 @@
 <snippet>
 	<content><![CDATA[
 (function (root, factory) {
-    if (typeof define === 'function' && define.amd) {
-        // AMD. Register as an anonymous module.
-        define([${2/(,\s?)?(\w+)/$1'$2'/g}], factory);
-    } else {
-        // Browser globals
-        root.${1:amdWeb} = factory(${2/(,\s?)?(\w+)/$1root.$2/g});
-    }
+	if (typeof define === 'function' && define.amd) {
+		// AMD. Register as an anonymous module.
+		define([${2/(,\s?)?(\w+)/$1'$2'/g}], factory);
+	} else {
+		// Browser globals
+		root.${1:amdWeb} = factory(${2/(,\s?)?(\w+)/$1root.$2/g});
+	}
 }(this, function (${2:b}) {
 
-    function ${1:amdWeb} () {
-    	$3
-    }
+	function ${1:amdWeb} () {
+		$3
+	}
 
-    return ${1:amdWeb};
+	return ${1:amdWeb};
 }));
 ]]></content>
 	<tabTrigger>umd-amd</tabTrigger>
