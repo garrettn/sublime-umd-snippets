@@ -17,7 +17,7 @@
 	};
 }));
 ]]></content>
-	<tabTrigger>umd-jqc</tabTrigger>
+	<tabTrigger>umdjc</tabTrigger>
 	<scope>source.js</scope>
 	<description>UMD—jQuery plugin with CommonJS</description>
 </snippet>

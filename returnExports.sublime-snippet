@@ -22,7 +22,7 @@
 	return ${1:returnExports};
 }));
 ]]></content>
-	<tabTrigger>umd-re</tabTrigger>
+	<tabTrigger>umdr</tabTrigger>
 	<scope>source.js</scope>
 	<description>UMD—AMD, Node, or browser global</description>
 </snippet>

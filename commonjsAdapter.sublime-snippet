@@ -17,7 +17,7 @@ define(function (require, exports, module) {
 	};
 });
 ]]></content>
-	<tabTrigger>umd-cjsa</tabTrigger>
+	<tabTrigger>umdca</tabTrigger>
 	<scope>source.js</scope>
 	<description>UMD—CommonJS adapter</description>
 </snippet>

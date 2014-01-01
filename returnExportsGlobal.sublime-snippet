@@ -27,7 +27,7 @@
 	return ${1:returnExportsGlobal};
 }));
 ]]></content>
-	<tabTrigger>umd-reg</tabTrigger>
+	<tabTrigger>umdrg</tabTrigger>
 	<scope>source.js</scope>
 	<description>UMD—AMD with global, Node, or global</description>
 </snippet>

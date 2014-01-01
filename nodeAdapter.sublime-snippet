@@ -15,7 +15,7 @@ define(function (require, exports, module) {
 	};
 });
 ]]></content>
-	<tabTrigger>umd-na</tabTrigger>
+	<tabTrigger>umdn</tabTrigger>
 	<scope>source.js</scope>
 	<description>UMD—Node adapter</description>
 </snippet>

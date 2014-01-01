@@ -20,7 +20,7 @@
 	};
 }));
 ]]></content>
-	<tabTrigger>umd-cjss</tabTrigger>
+	<tabTrigger>umdcs</tabTrigger>
 	<scope>source.js</scope>
 	<description>UMD—CommonJS strict</description>
 </snippet>

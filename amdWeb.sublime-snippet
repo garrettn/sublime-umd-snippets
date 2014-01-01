@@ -17,7 +17,7 @@
 	return ${1:amdWeb};
 }));
 ]]></content>
-	<tabTrigger>umd-amd</tabTrigger>
+	<tabTrigger>umda</tabTrigger>
 	<scope>source.js</scope>
 	<description>UMD—AMD or browser global</description>
 </snippet>

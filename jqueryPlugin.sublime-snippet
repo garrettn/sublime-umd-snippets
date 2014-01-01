@@ -14,7 +14,7 @@
 	};
 }));
 ]]></content>
-	<tabTrigger>umd-jq</tabTrigger>
+	<tabTrigger>umdj</tabTrigger>
 	<scope>source.js</scope>
 	<description>UMD—jQuery plugin</description>
 </snippet>

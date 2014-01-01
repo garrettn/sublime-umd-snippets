@@ -22,7 +22,7 @@
 	return ${1:amdWebGlobal};
 }));
 ]]></content>
-	<tabTrigger>umd-amdg</tabTrigger>
+	<tabTrigger>umdag</tabTrigger>
 	<scope>source.js</scope>
 	<description>UMD—AMD with global export</description>
 </snippet>
