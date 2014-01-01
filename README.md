@@ -355,6 +355,10 @@ Fields:
 
 Reference: [returnExports](https://github.com/umdjs/umd/blob/master/returnExports.js)
 
+## Contributing
+
+Pull requests for improving the snippets are welcome. If you want to make changes to the module definitions themselves, please send those requests to the [UMD repo](https://github.com/umdjs/umd).
+
 ## License
 
 The Sublime UMD Snippets package is released under the MIT License. See [LICENSE.txt](https://github.com/garrettn/sublime-umd-snippets/blob/master/LICENSE.txt) for details.
