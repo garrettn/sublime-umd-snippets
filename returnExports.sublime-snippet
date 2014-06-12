@@ -6,7 +6,7 @@
 		define([${2/(,\s?)?(\w+)/$1'$2'/g}], factory);
 	} else if (typeof exports === 'object') {
 		// Node. Does not work with strict CommonJS, but
-		// only CommonJS-like enviroments that support module.exports,
+		// only CommonJS-like environments that support module.exports,
 		// like Node.
 		module.exports = factory(${2/(,\s?)?(\w+)/$1require\('$2'\)/g});
 	} else {
